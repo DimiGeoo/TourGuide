@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Destination Vase</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="queries_array">
+        <item><b> Ταξιδιωτικά Γραφεία</b></item>
+        <item><b> Προτεινόμενες Εκδρομές</b></item>
+        <item><b> Πακέτα Εκδρομών</b></item>
+        <item><b> Προτεινόμενες Εκδρομές ¨Take Me Somewhere¨</b></item>
+        <item><b> Πακέτα Εκδρομών ¨Madrid¨</b></item>
+        <item><b> Πακέτα εκδρομών κάτω των 200€</b></item>
+    </string-array>
+
+    <string-array name="queries_description_array">
+        <item> 1. Εμφάνιστε τον πίνακα TaksidiotikoGrafeio.</item>
+        <item> 2. Εμφάνιστε τον πίνακα ProteinomenhEkdromh.</item>
+        <item> 3. Εμφάνιστε τον πίνακα PaketoEkdromhs.</item>
+        <item> 4. Εμφάνιστε τις προτεινόμενες εκδρομές που παρέχει το ταξιδιωτικό γραφείο ¨Take Me Somewhere¨.</item>
+        <item> 5. Εμφάνιστε τα πακέτα εκδρομών για την πόλη Μαδρίτη.</item>
+        <item> 6. Εμφανίστε τα πακέτα εκδρομών που κοστίζουν λιγότερο από 200€.</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

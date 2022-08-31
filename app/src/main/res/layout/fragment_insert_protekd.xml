@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/airplanemenulogo"
+    android:fitsSystemWindows="true"
+    tools:context=".insertProtEkdFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="96dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/logo"  />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="ΕΙΣΑΓΩΓΗ ΠΡΟΤΕΙΝΟΜΕΝΗΣ ΕΚΔΡΟΜΗΣ"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/ProtEkdText1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="35dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Id..."/>
+
+    <EditText
+        android:id="@+id/ProtEkdText2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="City..."/>
+
+    <EditText
+        android:id="@+id/ProtEkdText3"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Country..."/>
+
+    <EditText
+        android:id="@+id/ProtEkdText4"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Duration..."/>
+
+    <EditText
+        android:id="@+id/ProtEkdText5"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Type..."/>
+
+    <Button
+        android:id="@+id/ProtEkdSubmitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="68dp"
+        android:background="@android:color/transparent"
+        app:icon="@drawable/insert"
+        app:iconPadding="0dp"
+        app:iconTint="@color/black"/>
+
+</LinearLayout>

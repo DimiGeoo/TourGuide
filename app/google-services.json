@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "563335011497",
+    "firebase_url": "https://destinationvase-default-rtdb.firebaseio.com",
+    "project_id": "destinationvase",
+    "storage_bucket": "destinationvase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563335011497:android:e2ed79e2c53d1a8c6a9db8",
+        "android_client_info": {
+          "package_name": "com.example.roomexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563335011497-9c78ci764bllmiv8jq00b0ido4cib7kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtc5F-pMVT-7QxXOX7zTYIW7ygQqhuKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563335011497-9c78ci764bllmiv8jq00b0ido4cib7kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

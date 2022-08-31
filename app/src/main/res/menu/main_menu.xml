@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/editTrips"
+        android:title="Διαχείριση Eκδρομών">
+        <menu>
+            <item
+                android:id="@+id/editTripsInsert"
+                android:icon="@drawable/add"
+                android:title="Εισαγωγή">
+            </item>
+            <item
+                android:id="@+id/editTripsUpdate"
+                android:icon="@drawable/updatemenu"
+                android:title="Ενημέρωση">
+            </item>
+            <item
+                android:id="@+id/editTripsDelete"
+                android:icon="@drawable/deletemenu"
+                android:title="Διαγραφή">
+            </item>
+            <item
+                android:id="@+id/editTripsSelect"
+                android:icon="@drawable/ask"
+                android:title="Ερωτήματα">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/destinations"
+        android:title="Διαχείριση Αγορών">
+        <menu>
+            <item
+                android:id="@+id/destinationsInsert"
+                android:icon="@drawable/ticket"
+                android:title="Εισαγωγή">
+            </item>
+            <item
+                android:id="@+id/destinationsUpdate"
+                android:icon="@drawable/edit"
+                android:title="Ενημέρωση">
+            </item>
+            <item
+                android:id="@+id/destinationsDelete"
+                android:icon="@drawable/cancel"
+                android:title="Διαγραφή">
+            </item>
+            <item
+                android:id="@+id/destinationsSelect"
+                android:icon="@drawable/question"
+                android:title="Ερωτήματα">
+            </item>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/aboutUs"
+        android:icon="@drawable/about"
+        android:title="Σχετικά με εμάς">
+    </item>
+
+    <item
+        android:id="@+id/exit"
+        android:icon="@drawable/exit"
+        android:title="Έξοδος">
+    </item>
+
+</menu>

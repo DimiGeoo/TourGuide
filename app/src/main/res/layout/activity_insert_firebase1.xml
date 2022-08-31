@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/airplanemenulogo"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="63dp"
+                android:layout_height="73dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Εισαγωγη Εκδρομης"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <RelativeLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#F1FCFF">
+
+
+                    <TextView
+                        android:id="@+id/STvQuery11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="Κωδικος Εκδρομης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/inteidAthl"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/STvQuery11"
+                        android:ellipsize="end"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery22"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery11"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="Ξενοδόχειο: "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/inshotel1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inteidAthl"
+                        android:layout_toEndOf="@id/STvQuery22"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery22"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="Κωδικός Πακέτου"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insekodPaketou"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inshotel1"
+                        android:layout_alignParentEnd="true"
+                        android:layout_toEndOf="@id/STvQuery33"
+                        android:ellipsize="end"
+                        android:inputType="number"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery444"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/insekodPaketou"
+                        android:layout_marginStart="0dp"
+
+                        android:layout_marginTop="60dp"
+                        android:layout_toEndOf="@id/inseday1"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="1oς Πελάτης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/PROGR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery33"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginTop="25dp"
+                        android:text="Προγράμμα Εκδρόμης"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/textviewProgramaPeL"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery33"
+                        android:layout_marginStart="9dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_toEndOf="@+id/PROGR"
+                        android:text="Προγράμμα Πελάτων"
+                        android:textSize="16sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insecl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery33"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_toEndOf="@id/STvQuery444"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <EditText
+                        android:id="@+id/inseday1"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/insekodPaketou"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="60dp"
+                        android:layout_toEndOf="@id/STvQuery4"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10sp">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/insekodPaketou"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="-3dp"
+                        android:layout_marginTop="60dp"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="1ή Μερα"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/STvQuery5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery4"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="2η Μερα"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/inseday2"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery4"
+                        android:layout_toEndOf="@id/STvQuery5"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10sp">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery555"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery4"
+                        android:layout_marginTop="0dp"
+
+                        android:layout_toEndOf="@id/inseday2"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="2oς Πελάτης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insecl2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inseday1"
+                        android:layout_toEndOf="@id/STvQuery555"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery5"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="3η Μερα"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/inseday3"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery5"
+                        android:layout_toEndOf="@id/STvQuery6"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10sp">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery666"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery5"
+                        android:layout_marginTop="0dp"
+
+                        android:layout_toEndOf="@id/inseday3"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="3oς Πελάτης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insecl3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inseday2"
+                        android:layout_toEndOf="@id/STvQuery555"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery6"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="4η Μερα"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/inseday4"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery6"
+                        android:layout_toEndOf="@id/STvQuery7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10sp">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery777"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery6"
+                        android:layout_marginTop="0dp"
+
+                        android:layout_toEndOf="@id/inseday4"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="4oς Πελάτης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insecl4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inseday3"
+                        android:layout_toEndOf="@id/STvQuery777"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery7"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="5η Μερα"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/inseday5"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery7"
+                        android:layout_toEndOf="@id/STvQuery8"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10sp">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery888"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery7"
+                        android:layout_marginTop="0dp"
+
+                        android:layout_toEndOf="@id/inseday5"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="5oς Πελάτης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insecl5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inseday4"
+                        android:layout_toEndOf="@id/STvQuery888"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery8"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="6η Μερα"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insay6"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery8"
+                        android:layout_toEndOf="@id/STvQuery9"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10sp">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery999"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery8"
+                        android:layout_marginTop="0dp"
+
+                        android:layout_toEndOf="@id/insay6"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="6oς Πελάτης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insecl6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/inseday5"
+                        android:layout_toEndOf="@id/STvQuery999"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery9"
+                        android:layout_alignParentStart="true"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="7η Μερα"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/inseday7"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery9"
+                        android:layout_toEndOf="@id/STvQuery0"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10sp">
+
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/STvQuery000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/STvQuery9"
+                        android:layout_marginTop="0dp"
+
+                        android:layout_toEndOf="@id/inseday7"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:text="7oς Πελάτης"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                        android:textSize="10dp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <EditText
+                        android:id="@+id/insecl7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/insay6"
+                        android:layout_toEndOf="@id/STvQuery000"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="8dp"
+                        android:textAlignment="textStart"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Small">
+
+                    </EditText>
+
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnInsFir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:background="@drawable/insert"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>
